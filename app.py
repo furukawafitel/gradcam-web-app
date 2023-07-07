@@ -17,7 +17,7 @@ import requests
 import streamlit as st
 
 # FastAPI server endpoint
-fastapi_server = "http://192.168.0.17:8000/"  
+fastapi_server = "http://192.168.0.17:8000/"
 
 # Endpoint url refer FastAPI docs
 url_getinfo = fastapi_server+"info"
