@@ -1,0 +1,8 @@
+h5py==3.6.0
+matplotlib==3.5.2
+numpy==1.22.3
+opencv-python-headless==4.5.5.64
+Pillow==10.0.0
+PyMySQL==1.0.2
+requests==2.27.1
+streamlit==1.19.0
