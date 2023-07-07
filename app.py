@@ -17,7 +17,7 @@ import requests
 import streamlit as st
 
 # FastAPI server endpoint
-fastapi_server = "fitelsmart-gradcam-api.azurewebsites.net/"  
+fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"  
 
 # Endpoint url refer FastAPI docs
 url_getinfo = fastapi_server+"info"
