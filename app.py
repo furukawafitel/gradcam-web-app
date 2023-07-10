@@ -12,7 +12,8 @@ import requests
 import streamlit as st
 
 # FastAPI server endpoint
-fastapi_server = "http://192.168.0.17:8000/"
+# fastapi_server = "http://192.168.0.17:8000/"
+fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"
 
 # Endpoint url refer FastAPI docs
 url_getinfo = fastapi_server+"info"
@@ -158,6 +159,7 @@ def main():
                                 plt.figure(figsize=(19, 5))
                                 plt.subplot(1, 2, 1)
                                 if len(img_input.shape)==3 and img_input.shape[-1]==3:
+                                    img_input = cv2.cvtColor(img_input, cv2.COLOR_BGR2RGB)
                                     plt.imshow(img_input)
                                 else:
                                     plt.imshow(img_input, cmap = "gray")
@@ -181,8 +183,8 @@ def main():
 
     if selection == "About":
         # documentation
-        doc_url = "https://www.streamlit.io"
-        st.info("Documentation :books: : [www.streamlit.io](%s) " % doc_url)
+        doc_url = "http://192.168.0.17:8000/Jakkapat-dew/RDAPI000-GradCam/codeExample/"
+        st.info("Documentation :books: : [https://fitelsmart-gradcam.azurewebsites.net/docs](%s) " % doc_url)
         api_doc_url = "https://fitelsmart-gradcam-api.azurewebsites.net/docs"
         st.info("API Reference :books: : [https://fitelsmart-gradcam-api.azurewebsites.net/docs](%s)" % api_doc_url)
     
