@@ -2,4 +2,5 @@ matplotlib==3.5.2
 numpy==1.22.3
 opencv-python-headless==4.5.5.64
 requests==2.27.1
+altair==4.2.2
 streamlit==1.19.0
