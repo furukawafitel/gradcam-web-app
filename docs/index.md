@@ -16,11 +16,11 @@ is provide to visulize where AI model is focussing,
 ### Insert your model
 You can upload your .h5 model.
 
-<!-- ![](demo_images/apppage_notdemo.png) -->
+![](demo_images/apppage_addmodel.png)
 
 Then upload your image file.
 
-<!-- ![](demo_images/apppage_addimage.png) -->
+![](demo_images/apppage_addimage.png)
 
 ### Demo model
 You can select demo model by click the "Get Model for demo" checkbox.

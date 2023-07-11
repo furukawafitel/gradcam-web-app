@@ -1,6 +1,6 @@
 site_name: Grad-CAM Visualization
 site_dir: ./site
-site_url: https://fitelsmart-gradcam.azurewebsites.net/docs
+# site_url: https://fitelsmart-gradcam.azurewebsites.net/docs
 theme:
   name: material
   features:
