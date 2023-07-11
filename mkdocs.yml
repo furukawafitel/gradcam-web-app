@@ -1,5 +1,5 @@
 site_name: Grad-CAM Visualization
-site_url: https://github.com/Jakkapat-dew/RDAPI000-GradCam
+site_url: https://fitelsmart-gradcam.azurewebsites.net/docs
 theme:
   name: material
   features:

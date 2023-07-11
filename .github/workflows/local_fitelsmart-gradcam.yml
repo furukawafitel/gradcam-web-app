@@ -31,7 +31,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: deploy mkdocs
-        run: mkdocs gh-deploy --force --clean --verbose
+        run: mkdocs build
+        # run: mkdocs gh-deploy --force --clean --verbose
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       

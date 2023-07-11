@@ -8,12 +8,18 @@ import cv2
 import os
 import io
 
+# ----- Web API -----
 import requests
 import streamlit as st
 
+# ----- Load Secret -----
+from dotenv import load_dotenv
+load_dotenv()
+
 # FastAPI server endpoint
 # fastapi_server = "http://192.168.0.17:8000/"
-fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"
+# fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"
+fastapi_server = os.getenv("GRADCAM_API_URL")
 
 # Endpoint url refer FastAPI docs
 url_getinfo = fastapi_server+"info"
