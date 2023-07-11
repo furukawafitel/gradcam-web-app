@@ -18,8 +18,8 @@ secrets = dotenv_values(".env")
 
 # FastAPI server endpoint
 # fastapi_server = "http://192.168.0.17:8000/"
-# fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"
-fastapi_server = secrets["GRADCAM_API_URL"]
+fastapi_server = "https://fitelsmart-gradcam-api.azurewebsites.net/"
+# fastapi_server = secrets["GRADCAM_API_URL"]
 
 # Endpoint url refer FastAPI docs
 url_getinfo = fastapi_server+"info"
