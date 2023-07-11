@@ -6,7 +6,7 @@ See the paper: [Grad-CAM: Visual Explanations from Deep Networks
 via Gradient-based Localization](https://arxiv.org/pdf/1610.02391v1.pdf) 
 
 
-![](gradcam_images/modelbias.png)
+<!-- ![](gradcam_images/modelbias.png) -->
 
 Grad-CAM visualizations of the model predictions (see the red regions in the middle column) revealed
 that the model had learned to look at the person’s face / hairstyle to distinguish nurses from doctors, thus learning a gender stereotype. Indeed, the model was misclassifying several female doctors to be a nurse and male nurses to be a doctor. Clearly, this is problematic. Turns out the image search results were gender-biased
@@ -16,16 +16,16 @@ is provide to visulize where AI model is focussing,
 ### Insert your model
 You can upload your .h5 model.
 
-![](demo_images/apppage_notdemo.png)
+<!-- ![](demo_images/apppage_notdemo.png) -->
 
 Then upload your image file.
 
-![](demo_images/apppage_addimage.png)
+<!-- ![](demo_images/apppage_addimage.png) -->
 
 ### Demo model
 You can select demo model by click the "Get Model for demo" checkbox.
 
-![](demo_images/demo3.gif)
+![](demo_images/demo.gif)
 
 ## Site Reference
 Fitel Smart App: [fitelsmart-gradcam-app](https://fitelsmart-gradcam.azurewebsites.net/) 
