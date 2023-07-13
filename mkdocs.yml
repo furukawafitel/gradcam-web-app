@@ -1,5 +1,5 @@
 site_name: Grad-CAM Visualization
-site_url: https://github.com/furukawafitel/gradcam-webapp/docs
+site_url: https://furukawafitel.github.io/gradcam-webapp
 theme:
   name: material
   features:
