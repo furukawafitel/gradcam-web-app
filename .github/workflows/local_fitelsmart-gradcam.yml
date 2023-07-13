@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - fitelsmart-gradcam
 on:
   push:
     branches:
-      - Local
+      - main
   workflow_dispatch:
 
 jobs:
