@@ -106,18 +106,18 @@ def main():
 
         # upload model as file
         if model_file is not None:            
-            # if st.button("Check model"):
-            try:
+            with st.spinner('Loading the model ...'):
+                try:
 
-                response = upload_file(url=url_uploadmodel, file=model_file, demo=demo_enable)
-                
-                st.success("Load model success.")
-                load_model_status = "Success"
-                
-            except Exception as ex:
-                print(str(ex))
-                st.error("Load model failed. Please re-check your file path!\n" + "Error: "+str(ex))
-                load_model_status = "Fail"
+                    response = upload_file(url=url_uploadmodel, file=model_file, demo=demo_enable)
+                    
+                    st.success("Load model success.")
+                    load_model_status = "Success"
+                    
+                except Exception as ex:
+                    print(str(ex))
+                    st.error("Load model error : "+str(ex))
+                    load_model_status = "Fail"
         
         
             if load_model_status == "Success":
@@ -189,7 +189,7 @@ def main():
 
     if selection == "About":
         # documentation
-        doc_url = "http://192.168.0.17:8000/Jakkapat-dew/RDAPI000-GradCam/codeExample/"
+        doc_url = "https://github.com/furukawafitel/gradcam-webapp/docs"
         st.info("Documentation :books: : [https://fitelsmart-gradcam.azurewebsites.net/docs](%s) " % doc_url)
         api_doc_url = "https://fitelsmart-gradcam-api.azurewebsites.net/docs"
         st.info("API Reference :books: : [https://fitelsmart-gradcam-api.azurewebsites.net/docs](%s)" % api_doc_url)

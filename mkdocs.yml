@@ -1,6 +1,5 @@
 site_name: Grad-CAM Visualization
-site_dir: ./site
-site_url: https://fitelsmart-gradcam.azurewebsites.net/docs
+site_url: https://github.com/furukawafitel/gradcam-webapp/docs
 theme:
   name: material
   features:
@@ -50,5 +49,5 @@ markdown_extensions:
   - attr_list
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/Jakkapat-dew"  target="_blank" rel="noopener">Jakkapat W.</a>
+  &copy; 2023 <a href="https://github.com/furukawafitel/gradcam-webapp"  target="_blank" rel="noopener">FFT Grad-CAM</a>
 
