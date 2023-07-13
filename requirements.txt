@@ -1,8 +1,9 @@
-h5py==3.6.0
 matplotlib==3.5.2
 numpy==1.22.3
 opencv-python-headless==4.5.5.64
-Pillow==10.0.0
-PyMySQL==1.0.2
 requests==2.27.1
+altair==4.2.2
 streamlit==1.19.0
+mkdocs==1.4.3
+mkdocs-material==9.1.18
+python-dotenv==1.0.0
