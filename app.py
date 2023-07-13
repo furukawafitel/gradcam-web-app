@@ -190,7 +190,7 @@ def main():
     if selection == "About":
         # documentation
         doc_url = "https://furukawafitel.github.io/gradcam-webapp/"
-        st.info("Documentation :books: : [https://furukawafitel.github.io/gradcam-webapp/](%s) " % doc_url)
+        st.info("Documentation :books: : [https://furukawafitel.github.io/gradcam-web-app/](%s) " % doc_url)
         api_doc_url = "https://fitelsmart-gradcam-api.azurewebsites.net/docs"
         st.info("API Reference :books: : [https://fitelsmart-gradcam-api.azurewebsites.net/docs](%s)" % api_doc_url)
     
